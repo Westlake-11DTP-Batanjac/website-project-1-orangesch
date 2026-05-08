@@ -1,0 +1,162 @@
+body { 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    font-family: 'Segoe UI'; 
+
+    color: white;  
+
+} 
+.makebig{
+    font-size: 25px;
+}
+.makemed{
+    font-size: 20px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.notopmargin{
+    margin-top: 0;
+}
+.page-container { 
+
+    height: 850px;  
+    display: flex;
+    flex-direction: column;
+
+} 
+
+  
+
+header { 
+
+    background-color: #ffadad;  
+    display: flex;
+    padding: 15px 25px; 
+} 
+
+  
+
+.logo { 
+
+    background-color: #d9d9d9;  
+
+    color: white; 
+
+    border: 1px solid #777; 
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    padding: 10px; 
+    margin-right: 20px;
+} 
+
+  
+nav { 
+
+    background-color: #a442a4;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} 
+
+  
+
+nav ul { 
+
+    list-style: none; 
+
+    margin: 0; 
+
+    padding: 12px; 
+} 
+
+  
+
+nav ul li a { 
+
+    color: white; 
+
+    text-decoration: none; 
+
+} 
+
+
+.main-content { 
+
+    background-color: #e0e0e0;  
+
+    padding: 50px; 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;  
+
+} 
+
+  
+
+.content-box { 
+
+    background-color: #b0a3a3;  
+    width: 300px; 
+    height: 400px; 
+    padding: 20px; 
+
+} 
+
+  
+
+.image-box { 
+
+    background-color: #B7B7B7; 
+
+    width: 250px; 
+
+    height: 250px; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+} 
+
+  
+
+footer { 
+
+    background-color: #b38bff;  
+
+    padding: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+} 
+
+  
+
+.social-links { 
+
+    background-color: #d9d9d9;  
+
+    color: white; 
+    height: 40px;
+    padding: 10px; 
+    width: 300px; 
+    margin: 10px;
+    border: 1px solid #777; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
