@@ -1,0 +1,49 @@
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.page-container { 
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width : 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: larger;
+
+}
+header{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+header li{
+    margin: 0 15px;
+    font-size: large;
+    font-style: normal;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+header img{
+    height: 70px;
+    margin-right: 2px;
+}
+header h1{
+    position: relative;
+}
