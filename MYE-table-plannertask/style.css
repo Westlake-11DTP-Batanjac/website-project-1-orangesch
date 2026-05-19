@@ -1,12 +1,12 @@
 th{
-    border: 5px solid black;
+    border: 3px solid black;
     padding: 5px;
     background-color: lightsalmon;
 }
 td{
-    border: 5px solid black;
+    border: 3px solid black;
     text-align: center;
-    padding: 5px;
+    padding: 7px;
 }
 table {
     border-collapse: collapse;
@@ -16,7 +16,7 @@ tr {
     height: 40px;
 }
 body {
-    scale: 150%;
+    scale: 130%;
     margin-top: 100px;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     display: flex;
@@ -28,3 +28,20 @@ h1 {
     text-align: center;
     width: 100%;
 }
+
+tr:hover{
+    background-color: rgb(231, 231, 231);
+    font-style: oblique;
+    
+}
+.eas { 
+    background-color: greenyellow; 
+} 
+
+.medium { 
+    background-color: darkorange; 
+} 
+
+.hard { 
+    background-color: red; 
+} 
