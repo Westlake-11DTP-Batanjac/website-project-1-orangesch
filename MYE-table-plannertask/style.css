@@ -27,12 +27,11 @@ body {
 h1 {
     text-align: center;
     width: 100%;
+    margin: calc(var(--dawei)*5);
 }
 
 tr:hover{
     background-color: rgb(231, 231, 231);
-    font-style: oblique;
-    
 }
 .eas { 
     background-color: greenyellow; 
@@ -44,4 +43,8 @@ tr:hover{
 
 .hard { 
     background-color: red; 
+    
 } 
+:root{
+    --dawei:5px
+}
