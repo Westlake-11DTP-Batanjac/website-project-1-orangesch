@@ -1,0 +1,97 @@
+html,body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #F5F5F7;
+}
+.page-container { 
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+.imag{
+    max-width: 100%;
+}
+main h1 {
+    position: relative;
+    text-align: center;
+}
+
+header{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+header ul{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.headlist{
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+}
+
+header li{
+    margin: 10px;
+    font-size: large;
+    font-style: normal;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: #F5853F;
+    border-radius: 5px;
+}
+
+header div {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headh1{
+    align-self: flex-start;
+}
+.logo{
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-size: larger;
+}
+
+.logo img{
+    height: 80%;
+    width: auto;
+    margin-left: 30px;
+}
+nav{
+    height: 12.5px;
+    background-color: #F5853F;
+}
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    margin: 0 15px;
+    font-size: large;
+}
