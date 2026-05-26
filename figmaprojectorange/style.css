@@ -3,21 +3,24 @@ html,body {
     margin: 0;
     background-color: #F5F5F7;
 }
-.page-container { 
-    height: 100vh;  
+
+.page-container {
     display: flex;
     flex-direction: column;
 }
+
 main {
-    flex: 1;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
 }
+
 .imag{
-    max-width: 100%;
+    transform: scaleX(2);
 }
+
 main h1 {
-    position: relative;
-    text-align: center;
+    height: 10px;
 }
 
 header{
@@ -26,6 +29,7 @@ header{
     padding: 20px;
     justify-content: space-between;
 }
+
 header ul{
     padding: 0px;
     display: flex;
@@ -45,10 +49,12 @@ header li{
     font-size: large;
     font-style: normal;
 }
+
 header a{
     color: black;
     text-decoration: none;
 }
+
 header a:hover{
     background-color: #F5853F;
     border-radius: 5px;
@@ -60,9 +66,11 @@ header div {
     align-items: center;
     justify-content: center;
 }
+
 .headh1{
     align-self: flex-start;
 }
+
 .logo{
     border-radius: 10px;
     justify-content: flex-start;
@@ -76,14 +84,17 @@ header div {
     margin-left: 30px;
 }
 nav{
-    height: 12.5px;
+    height: 10px;
+    width: 100%;
     background-color: #F5853F;
 }
+
 footer {
     background-color: lightgrey;
     text-align: center;
     padding: 20px;
 }
+
 footer ul {
     list-style-type: none;
     padding: 0;
@@ -91,6 +102,7 @@ footer ul {
     display: flex;
     justify-content: center;
 }
+
 footer ul li {
     margin: 0 15px;
     font-size: large;
