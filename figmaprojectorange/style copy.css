@@ -61,6 +61,15 @@ main h4 {
     text-align: center;
 }
 
+.review div:hover {
+    animation: daweiAnim 2s ease-in-out infinite alternate;
+}
+
+@keyframes daweiAnim {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
 .daweirating{
     color: gold;
     font-size: 50px;

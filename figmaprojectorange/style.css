@@ -22,7 +22,20 @@ main {
 }
 
 .imag{
+    display: block;
     transform: scaleX(2);
+    transition: transform 0.3s ease;
+    
+}
+
+.imag:hover{
+    transform: scaleX(2.15);
+    animation: fas 1s ease-in-out infinite alternate;
+}
+
+@keyframes fas {
+    from { opacity: 1; }
+    to { opacity: 0.8; }
 }
 
 header{
