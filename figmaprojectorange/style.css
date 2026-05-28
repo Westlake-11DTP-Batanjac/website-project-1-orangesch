@@ -3,6 +3,9 @@ html,body {
     margin: 0;
     background-color: #F5F5F7;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .page-container {
     display: flex;
@@ -12,7 +15,10 @@ html,body {
 main {
     display: flex;
     justify-content: center;
-    height: 70vh;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/671/692/large_2x/orange-background-high-quality-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .imag{
@@ -88,7 +94,7 @@ header div {
 nav{
     height: 10px;
     width: 100%;
-    background-color: #F5853F;
+    background-color: #B77662;
 }
 
 footer{

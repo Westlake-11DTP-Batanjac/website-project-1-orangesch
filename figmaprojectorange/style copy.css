@@ -3,6 +3,9 @@ html,body {
     margin: 0;
     background-color: #F5F5F7;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .page-container {
     display: flex;
@@ -11,17 +14,63 @@ html,body {
 
 main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 40px 0px;
+    padding-bottom: 0;
+    min-height: 80vh;
+    box-sizing: border-box;
+}
+
+main h1,
+main h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.imag {
+    display: block;
+    max-width: 110%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.review {
+    display: flex;
     justify-content: center;
-    height: 70vh;
+    gap: 20px;
+    background-color: #F5853F;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    width: min(100%, 1450px);
+    box-sizing: border-box;
+    border: #B77662 solid 7px;
 }
 
-.imag{
-    transform: scaleX(2);
+.review div {
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 16px 24px;
+    border-radius: 18px;
+    min-width: 400px;
+    max-width: 400px;
+    text-align: center;
 }
 
-.review{
-    background-color:#F5853F;
-    
+.daweirating{
+    color: gold;
+    font-size: 50px;
+}
+.bigbad{
+    color: white;
+    font-size: 50px;
+}
+.bold{
+    font-weight: bold;
 }
 
 header{
