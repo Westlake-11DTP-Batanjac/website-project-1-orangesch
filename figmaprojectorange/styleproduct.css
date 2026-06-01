@@ -37,7 +37,22 @@ main h4 {
     height: auto;
     margin: 0 auto;
 }
-
+.imag2{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.imag3{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-right: -40px;
+    scale: 1.2;
+}
 .review {
     display: flex;
     justify-content: center;
@@ -80,6 +95,7 @@ main h4 {
 }
 .bold{
     font-weight: bold;
+    font-size: larger;
 }
 
 header{
